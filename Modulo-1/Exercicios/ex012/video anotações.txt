@@ -1,0 +1,30 @@
+*Formatos de vídeo para seu site*
+Cuidado com vídeos autorais, usa vídeos grátis
+
+Os vídeos tem formatos de codecs e isto torna inviavel de ser reproduzido na maioria dos navegadores e na maioria dos dispositivos.
+Os formatos suportados são MPEG, WEBM e OGG, mas os 
+dois primeiros são os que possuem maior compatibilidade
+com os navegadores atualmente. 
+
+OBS: Conversor de vídeos em vários formatos no Handbrake --b
+
+*Dica coloca em todos tipos de formatos no site o vídeo para cada navegador compativel com o formato,assim como em imagens em ordem
+Para isso dentro da tag video digite source:src
+Para diminuir a largura do viddeo que sera mostrado no site,lembre isso não vai diminuir o tamanho do vídeo é so a parte visual vista pelo site
+digite dentro da tag video o atributo width 
+Também é possivel colocar uma thumbnail no video,basta colocar também dentro da tag video o atributo poster=""
+
+Tag <video
+ source	src="" type=""
+</video>
+
+OBS: Essa forma vai consumir muito acesso trafego que vai pesar muito para o cliente
+
+Outra forma mais barata é usando a Hospedagem do Youtube,é so copiar o código
+Com isso você precisa criar um canal no youtube e carrega o video no Youtube
+Mas o vídeo será publico,se você priva o vídeo no site a Hospedagem no Youtube 
+não sera possivel visualizar o vídeo.
+
+
+Outra forma seria no vimeo ela é paga e a banda é ilimitada
+

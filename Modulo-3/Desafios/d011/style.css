@@ -1,0 +1,15 @@
+body{
+   /* background-color: black;*/
+   height: 100vh;
+   margin: 0px;
+   padding: 0px;
+   background: url(imagens/espaco.jpg) center top / cover no-repeat fixed;
+}
+
+div#astronauta{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(imagens/astronauta.png);
+    background-position: center center;
+}
